@@ -1,0 +1,50 @@
+#outer
+{
+    height: auto;
+    width: 100%;
+}
+#upperComponent
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+#lowerComponent{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+#imageComp1
+{
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    font-size: 12px;
+}
+img{
+    height:50%;
+    width: 40%;
+    padding-top: 30px;
+}
+button{
+    width: 500px;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: block;
+    max-width: 40%;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px -1px 0px;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(62, 156, 191) 0px 1px 0px inset, rgb(32, 92, 115) 0px 5px 0px 0px, rgb(153, 153, 153) 0px 10px 5px;
+    background: rgb(62, 156, 191);
+    padding: 8px 14px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(62, 156, 191);
+    border-image: initial;
+    margin: 20px auto 0px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+p{
+    font-size: 20px;
+}
