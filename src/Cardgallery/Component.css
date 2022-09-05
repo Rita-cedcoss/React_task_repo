@@ -1,0 +1,43 @@
+#outer
+{
+    height: auto;
+    width: 100%;
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+    
+}
+#main
+{
+    height: auto;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+#divComp
+{
+    height: 230px;
+    width: 20%;
+    background-color: #0012ff;;
+    /* border: 0px solid; */
+    border-radius: 8px 8px 8px 8px; 
+    margin-top: 20px;
+}
+#top
+{
+    height: 35px;
+    width: 95%;
+    padding-left: 5%;
+    color:white;
+
+}
+#bottom
+{
+    height: 150px;
+    width: 92%;
+    padding-left: 5%;
+    padding-right: 3%;
+    color:white;
+}
