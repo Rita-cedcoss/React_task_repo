@@ -1,0 +1,82 @@
+#outer
+{
+    height:auto;
+    width: 100%;
+}
+#outer1{
+    height: 300px;
+    width: 50%;
+    margin: auto;
+
+}
+.suggest
+{
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+.para{
+    height: auto;
+    width: 27%;
+    margin: auto;
+    background-color: rgb(235, 231, 231);
+}
+.para>p{
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+#bgChange
+{
+    height: 200px;
+    width: 50%;
+    margin: auto;
+}
+.red{
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    background-color: red;  
+}
+.blue
+{
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    background-color:blue;     
+}
+#buttonChanger
+{
+    height: 300px;
+    width: 50%;
+    color: white;
+    margin: auto;
+}
+.light{
+    background-color: rgb(66, 237, 243);
+    color:black;
+}
+.dark
+{
+    
+
+    background-color: rgb(3, 11, 61);
+    color:white;
+    
+}
+.party{
+    
+    
+    background-color: rgb(255, 218, 138);
+    color:black;
+}
+
+button
+{
+    height: 30px;
+    margin: 27px;
+    width: 76px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+}
