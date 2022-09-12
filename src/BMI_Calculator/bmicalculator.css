@@ -1,0 +1,45 @@
+#bmiOuter
+{
+    height: auto;
+    width: 50%;
+    margin :auto;   
+    display: flex;
+    justify-content: center;
+}
+#bmi_main
+{
+    
+    height: auto;
+    width: 50%;
+    background-color: beige;
+    text-align: center;
+    border: 2px solid blue;
+    margin-top: 60px;
+
+}
+#sel
+{
+    height: 35px;
+    width: 240px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 16px;
+}
+span{
+    font-size: 22px;
+    margin-right: 10px;
+    font-weight: 900;
+}
+input{
+    height: 25px;
+    width: 180px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+#btnsubmit{
+    height: 30px;
+    width: 90px;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
