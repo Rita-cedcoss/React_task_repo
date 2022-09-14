@@ -1,0 +1,46 @@
+#task4
+{
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#addDetail{
+    height: auto;
+    width: 50%;
+    background-color: rgb(199, 188, 188);
+}
+#addDetail>input{
+    height: 34px;
+    width: 80%;
+    margin-top: 1%;
+    border: 1px solid #aba2a2;
+    border-right: 0px;
+}
+#addDetail>button{
+    height: 38px;
+    width: 15%;
+    border: 1px solid #aba2a2;
+    background: white;
+}
+#productDetail
+{
+    height: auto;
+    width: 100%;
+    background-color: rgb(199, 188, 188);
+    margin-top: 2%;
+}
+#productDetail>table{
+    width: 100%;
+    border-collapse: collapse;
+}
+  #lefttd
+  {
+    width: 40px;
+    text-align: left;
+    padding-left: 11px;
+  }
+  #righttd
+  {
+    text-align: left;
+  }
