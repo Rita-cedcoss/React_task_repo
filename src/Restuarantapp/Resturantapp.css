@@ -1,0 +1,191 @@
+#outer
+{
+    height:auto;
+    width: 100vw;
+    background-color: aquamarine;
+}
+#inner
+{
+    height: 500px;
+    width: 100%;
+    padding-top: 10%;
+    background-color: blue;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?cs=srgb&dl=pexels-chan-walrus-941861.jpg&fm=jpg");
+    /* background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2015/07/24/761345/269dd27cfe5c78b54fd142ea9b4ecf10.jpg"); */
+}
+#signup
+{
+    padding-top:1%;
+    height:75%;
+    width: 25%;
+    background-color:#000000ab;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.signupBlock{
+    display: block;
+}
+.signupnone
+{
+    display: none;
+}
+#signup>p{
+   
+    font-size: 14px;
+}
+#signup>p>a{
+    color: white;
+}
+#signup>input{
+    height: 9%;
+    border: none;
+    width: 65%;
+    margin-top: 7%;
+    padding-left: 17px;
+    border-radius: 20px;
+}
+#btnCreate
+{
+    margin-top: 7%;
+    height: 9%;
+    width: 50%;
+    font-size: 17px;
+    border-radius: 22px;
+    border: none;
+    background-color: #e53f3f;
+    color: white;
+}
+#Login
+{
+    padding-top:1%;
+    height:70%;
+    width: 25%;
+    background-color:#000000ab;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.loginBlock{
+    display: block;
+}
+.loginnone
+{
+    display: none;
+}
+#Login>p{
+   
+    font-size: 14px;
+}
+#Login>p>a{
+    color: white;
+}
+#Login>input{
+    height: 10%;
+    border: none;
+    width: 70%;
+    margin-bottom: 1%;
+    margin-top: 8%;
+    padding-left: 17px;
+    border-radius: 20px;
+}
+#btnLogin
+{
+    margin-top: 10%;
+    height: 11%;
+    width: 50%;
+    font-size: 17px;
+    border-radius: 22px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #e53f3f;
+    color: white;
+}
+#resturantMain{
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+}
+#header
+{
+    height: 75px;
+    width: 100%;
+    margin: auto;
+    color: #622f2f;
+    display: flex;
+    background-color: #efd3d3;
+}
+#searchItem{
+    height: 1000px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 300px, 300px, 300px;
+    grid-template-rows: 300px, 300px,300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://thumbs.dreamstime.com/b/set-diet-dishes-assortment-food-white-wooden-background-top-view-free-space-your-text-set-diet-dishes-assortment-182821831.jpg");
+}
+#searchdiv{
+    height: 68%;
+    width: 50%;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+#searchdiv>input
+{
+    height: 80%;
+    width: 80%;
+    border: 1px solid #a16363;
+}
+#searchdiv>button{
+    height: 88%;
+    width: 16%;
+    border: 1px solid black;
+    background-color: #362828;
+    color: white;
+}
+#logo
+{
+    height:100%;
+    width: 40%;
+    display: flex;
+}
+#logo>img{
+    height: 100%;
+    width: 30%;
+    margin-left: 20%;
+}
+#logo>p{
+    margin-top: 5%;
+    font-size: 27px;
+}
+#product
+{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 40px;
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 300px, 300px,300px;
+    padding: 10px;
+}
+.imgprod
+{
+    height: 190px;
+    width: 200px;
+    border-radius: 50%;
+}
+#row
+{
+    background-color: #efd3d3;
+    border-radius: 24px;
+    padding: 10px;
+    text-align: center;
+}
