@@ -120,16 +120,8 @@
     background-color: #efd3d3;
 }
 #searchItem{
-    height: 1000px;
+    height: 1520px;
     width: 100%;
-    opacity: 0.8;
-    background-color: red;
-    display: grid;
-    grid-template-columns: 300px, 300px, 300px;
-    grid-template-rows: 300px, 300px,300px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url("https://thumbs.dreamstime.com/b/set-diet-dishes-assortment-food-white-wooden-background-top-view-free-space-your-text-set-diet-dishes-assortment-182821831.jpg");
 }
 #searchdiv{
     height: 68%;
@@ -167,14 +159,22 @@
 }
 #product
 {
-    display: grid;
+    /* display: grid;
     column-gap: 50px;
     row-gap: 50px;
     margin-top: 40px;
     justify-content: center;
     grid-template-columns: 250px 250px 250px;
     grid-template-rows: 300px, 300px,300px;
-    padding: 10px;
+    padding: 10px; */
+    display: grid;
+    column-gap: 4%;
+    row-gap: 4%;
+    margin-top: 4%;
+    margin-left: 9%;
+    margin-right: 9%;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
 }
 .imgprod
 {
@@ -185,7 +185,50 @@
 #row
 {
     background-color: #efd3d3;
-    border-radius: 24px;
-    padding: 10px;
     text-align: center;
+    border-radius: 5%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#discriptionOuter
+{
+    height: 780px;
+    padding: 5%;
+    width: 90%;
+    text-align: center;
+    background-color: white;
+}
+#dispOuter
+{
+    height: 750px;
+    width: 87%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    font-size: 12px;
+    border-radius: 15Px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+    /* border: 1px solid black; */
+    background-color: #fbdede;
+}
+#dispOuter>img{
+    height: 20%;
+    width: 25%;
+    border-radius: 65px;
+}
+.showProduct{
+    display: block;
+}
+.noneProduct{
+    display: none;
+}
+#discriptionOuter>button
+{
+    margin-right: 115%;
+    border: none;
+    background: none;
+    font-size: 22px;
+    color: #744141;
+    margin-bottom: 11px;
+    border-bottom: 1px solid;
 }

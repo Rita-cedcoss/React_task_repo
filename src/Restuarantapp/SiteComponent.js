@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './Resturantapp.css'
+import Fooddescription from './Fooddescription';
 function SiteComponent() {
 let arr=[
         {
@@ -413,73 +415,61 @@ let arr=[
             ]
         }
     ]
-  
-//    const[suggests,setSuggest]=useState(suggest);
-//     const suggestion=(e)=>
-//     {
-//          inputText=e.target.value;
-//         console.log(inputText);
-//         if(inputText!=="")
-//         {
-//           for(let i=0;i<arrName.length;i++)
-//           {    
-//             if (inputText.toLowerCase() === arrName[i].slice(0, inputText.length).toLowerCase()) {              
-//                  suggest.push(arrName[i]);              
-//             }
-//           }          
-//         }
-//         setSuggest([...suggest]);
-//     }
+    let ind;
+    const[showProduct1,setShow]=useState("showProduct");
+    const showdiv=()=>
+    {
+        setShow("showProduct");
+        setArritemdescription();
+    }
+    let searchMatchArr=[];
+    const[arritemDiscription,setArritemdescription]=useState();
+    const [arrsearch,setArrsearch]=useState(arr);
+    const searchItem=()=>{
+       let inp =document.getElementById('searchInp').value
+        for(let i=0;i<arr.length;i++){
+            if(arr[i].name.slice(0,inp.length).toUpperCase()===inp.toUpperCase() || arr[i].cuisine_type.slice(0,inp.length).toUpperCase()===inp.toUpperCase() || arr[i].neighborhood.slice(0,inp.length).toUpperCase()===inp.toUpperCase()){
+                searchMatchArr.push(arr[i])
+            }
+        }
+        setArrsearch([...searchMatchArr])
+    }
+    const displayDescription=(e)=>
+    {
+         ind=e.target.parentElement.getAttribute("index");
+         console.log(arr[ind-1]);
+         
+            setArritemdescription(<Fooddescription item={arr[ind-1]} showDiv={showdiv}></Fooddescription>)
+            setShow("noneProduct");
+            // showdiv();
+    }
     return (
     <>
-     {console.log(arr)}
     <div id="resturantMain">
     <div id="header">
         <div id="logo"><img alt='' src="restuaurant1.png"></img><p>The Golden Era</p></div>
-        <div id="searchdiv"><input type="text"></input><button>Search</button></div> 
+        <div id="searchdiv"><input type="text" id="searchInp"></input><button onClick={searchItem}>Search</button></div> 
     </div>
-    {/* <div id="searchItem"> */}
+    <div id="searchItem" className={showProduct1}>
     <div id="product" >
-
-        {arr.map((item)=>{
-            return(
-                <div id="row" className='.grid-item'>   
+        {/* <Link to="/des"><p>Description</p></Link> */}
+        {arrsearch.map((item)=>{
+            return(   
+                <div index={item.id} id="row" className='.grid-item' onClick={displayDescription}>   
                 <img className="imgprod" src={item.photograph} alt=''></img>
                 <h3>{item.name}</h3>
                 <p>{item.cuisine_type}</p>
+                <p>{item.neighborhood}</p>
             </div> 
             )
         })}
-    {/* <div id="row" className='.grid-item'>   
-            <img className="imgprod" src="https://insanelygoodrecipes.com/wp-content/uploads/2020/12/Homemade-Anglesey-Eggs.png" alt=''></img>
-            <h1>csdfs</h1>
-            <p>www</p>
-        </div> */}
-        {/* <div id="row" className='.grid-item'>   
-            <img className="imgprod" src="https://insanelygoodrecipes.com/wp-content/uploads/2020/12/Homemade-Anglesey-Eggs.png" alt=''></img>
-            <h1>csdfs</h1>
-            <p>www</p>
-        </div>
-        <div id="row" className='.grid-item'>   
-            <img className="imgprod" src="https://insanelygoodrecipes.com/wp-content/uploads/2020/12/Homemade-Anglesey-Eggs.png" alt=''></img>
-            <h1>csdfs</h1>
-            <p>www</p>
-        </div>
-        <div id="row" className='.grid-item'>   
-            <img className="imgprod" src="https://insanelygoodrecipes.com/wp-content/uploads/2020/12/Homemade-Anglesey-Eggs.png" alt=''></img>
-            <h1>csdfs</h1>
-            <p>www</p>
-        </div>
-        <div id="row" className='.grid-item'>   
-            <img className="imgprod" src="https://insanelygoodrecipes.com/wp-content/uploads/2020/12/Homemade-Anglesey-Eggs.png" alt=''></img>
-            <h1>csdfs</h1>
-            <p>www</p>
-        </div> */}
    </div>
    </div>
-    {/* </div> */}
+   </div>
+       
+      {arritemDiscription}
+    
     </>
   )
 }
-
 export default SiteComponent
