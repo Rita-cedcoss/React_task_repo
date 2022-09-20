@@ -1,0 +1,30 @@
+#outer
+{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#toggle
+{
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.dark
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(2, 2, 2);
+    text-align: center;
+    color:white;
+}
+.light
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+}
