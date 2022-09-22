@@ -126,9 +126,7 @@ function Expensemanagersystem() {
         document.getElementById("text").value="";
         document.getElementById("amount").value="";
         document.getElementById("transaction").innerHTML="Add transaction";
-
      }
-
     }
     else if(selcat==="Travelling")
     {
@@ -167,9 +165,6 @@ function Expensemanagersystem() {
      }
     }
   }
- 
-        // console.log(text);
-        // console.log(amount);
         document.getElementById("text").value="";
         document.getElementById("amount").value="";
         event.preventDefault();
@@ -226,17 +221,7 @@ function Expensemanagersystem() {
     arrmiscellaneous.splice(index,1);
      setArrveggies([...arrmiscellaneous]);
    }
-    const incomeDelete=(e)=>
-    {
-      let index=e.target.getAttribute("ind");
-      let incomeamt=arrIncome[index].amount;
-      let incomedel=parseInt(Income)-parseInt(incomeamt);
-      let balancedel=parseInt(Income)-parseInt(incomeamt)+parseInt(expense);
-      setBalance(balancedel);
-      setIncome(incomedel);
-      arrIncome.splice(index,1);
-      setArrincome([...arrIncome]);
-    }
+   
     const editgrocery=(e)=>
     {
       let valtext=e.target.getAttribute("valuetext");
@@ -382,21 +367,6 @@ function Expensemanagersystem() {
      </ul>
     </div>
     <div>
-    {/* <h3>Income</h3> */}
-     <ul id="list" class="list">
-             {/* <li class="minus">
-             {arrIncome.name}<span>{arrIncome.amount}</span><button class="delete-btn">x</button>
-              </li> */}
-              {/* {
-         arrIncome.map((item,index)=>{
-            return(
-                <li class="minus">
-                {item.name} <span>{item.amount}</span><button ind={index} onClick={incomeDelete} class="delete-btn">x</button>
-              </li>
-            )
-         })
-        } */}
-     </ul>
     </div>
   <h3>Add new transaction</h3>
   <form id="form">
