@@ -1,0 +1,143 @@
+#navOuter{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    background-color: #24282838;
+    /* justify-content: space-between; */
+    font-family: 'Abyssinica SIL', serif;
+}
+#navleft
+{
+    height: 100%;
+    width: 14%;
+    /* margin-top: 1%; */
+    padding-left: 6%;
+    /* margin-right: 5%; */
+    /* padding-top: 2%; */
+    /* background-color: azure; */
+}
+#navright
+{
+    height: 74%;
+    width: 80%;
+    /* background-color: rgb(8, 10, 10); */
+    text-align: right;
+    /* margin-right: 0%; */
+    padding-top: 1%;
+    /* background-color: red; */
+    padding-right: 10%;
+    font-size: 18px;
+}
+#navright>a
+{
+    text-decoration: none;
+    margin-left: 2%;
+    color: white;
+    font-size: 18px;
+}
+#navTop
+{
+    height:600px;
+    width: 100%;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.drivemag.net/media/default/0002/04/driver-profile-1600-2599-default-large.jpeg");
+}
+#middle
+{
+    height: 480px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+}
+#midLeft
+{
+    height: 70%;
+    width: 34%;
+    color: white;
+    /* background-color: aqua; */
+    padding-top: 14%;
+    /* padding-left: 20%; */
+    color: #e91e63;
+    margin-left: 28%;
+    text-align: center;
+}
+#midRight
+{
+  height: 100%;
+  width: 50%;
+  /* background-color: pink; */
+}
+#midRinner
+{
+    height:100%;
+    width: 40%;
+    background-color: white;
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 6%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#midRinner>input{
+    height: 4%;
+    width: 85%;
+    /* margin: auto; */
+    margin-top: 2%;
+    /* margin-left: 5%; */
+}
+.checkbox
+{
+    height: 5%;
+    width: 10% !important;
+    margin-top: 4% !important;
+    /* margin-left: 5%; */
+}
+button{
+    height: 7%;
+    width: 87%;
+    margin-left: 1%;
+    margin-top: 6%;
+    font-size: 18px;
+    border: none;
+    background-color: #ed0c55;
+    color: white;
+}
+#bottom
+{
+    height: 200px;
+    width: 100%;
+    /* background-color: #ed0c55; */
+    background-color: #ebe9ea;
+
+    display: flex;
+    justify-content: center;
+}
+
+#bottom_top
+{
+    height: 100%;
+    width: 50%;
+    /* margin: auto; */
+
+}
+.inpfoot
+{
+    height: 12px;
+    margin-right: 1%;
+    border: none;
+    padding: 2%;
+    width: 150px;
+}
+.inpfoot1
+{
+    height: 40px;
+    width: 84px;
+    font-size: 14px;
+    background-color: #e91e63;
+    border: none;
+    color: white;
+}
