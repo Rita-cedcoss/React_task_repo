@@ -1,0 +1,15 @@
+#navbar
+{
+    height: 50px;
+    width: 98%;
+    background-color: rgb(5, 7, 146);
+    padding-top: 2%;
+    padding-left: 2%;
+    
+}
+a{
+    text-decoration: none;
+    margin-right: 2%;
+    color:white;
+    
+}
