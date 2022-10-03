@@ -1,0 +1,38 @@
+#navbar
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+#navleft
+{
+    height: 85%;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+#navright1
+{
+    height: 72%;
+    width: 50%;
+    padding-top: 20px;
+    text-align: right;
+    /* background-color: rgb(48, 66, 66); */
+    padding-right: 10%;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: rgb(68, 36, 36);
+    
+}
+#banner
+{
+    height: 600px;
+    width: 100%;
+    background-color: red;
+}
