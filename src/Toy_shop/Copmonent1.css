@@ -1,0 +1,385 @@
+#outer
+{
+    height:auto;
+    width: 100vw;
+    background-color: aquamarine;
+}
+#inner
+{
+    height: 650px;
+    width: 100%;
+    padding-top: 4%;
+    background-color: blue;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("https://thumbs.dreamstime.com/b/baby-kids-toys-banner-background-wooden-educational-natural-light-green-top-view-flat-lay-180323902.jpg");
+}
+#signup
+{
+    padding-top:1%;
+    height:60%;
+    width: 25%;
+    background-color:#000000ab;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.signupBlock{
+    display: block;
+}
+.signupnone
+{
+    display: none;
+}
+#signup>p{
+   
+    font-size: 14px;
+}
+#signup>p>a{
+    color: white;
+}
+#signup>input{
+    height: 9%;
+    border: none;
+    color: black;
+    width: 65%;
+    margin-top: 7%;
+    padding-left: 17px;
+    border-radius: 20px;
+}
+#btnCreate
+{
+    margin-top: 7%;
+    height: 9%;
+    width: 50%;
+    font-size: 17px;
+    border-radius: 22px;
+    border: none;
+    background-color: #e53f3f;
+    color: white;
+}
+#Login
+{
+    padding-top:1%;
+    height:60%;
+    width: 25%;
+    background-color:#000000ab;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+.loginBlock{
+    display: block;
+}
+.loginnone
+{
+    display: none;
+}
+#Login>p{
+   
+    font-size: 14px;
+}
+#Login>p>a{
+    color: white;
+}
+#Login>input{
+    height: 10%;
+    border: none;
+    width: 70%;
+    margin-bottom: 1%;
+    margin-top: 8%;
+    padding-left: 17px;
+    border-radius: 20px;
+}
+#btnLogin
+{
+    margin-top: 10%;
+    height: 11%;
+    width: 50%;
+    font-size: 17px;
+    border-radius: 22px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #e53f3f;
+    color: white;
+}
+#navbar
+{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    /* background-color: #79d997; */
+    background-color: #1b6a32;
+    color: white;
+}
+#navleft
+{
+    height: 71%;
+    width: 30%;
+    display: flex;
+    /* justify-content: center; */
+    padding: 10px;
+    /* background-color: #e53f3f; */
+}
+#navright
+{
+    height: 64%;
+    width: 67%;
+    padding-top: 25px;
+    /* background-color: aqua; */
+    /* margin-right: 2%; */
+    padding-right: 30px;
+    text-align: right;
+
+}
+a{
+    text-decoration: none;
+    margin-right: 5%;
+    color:white;
+    font-size: 20px;
+}
+a:hover{
+    color:#c9eccf;
+}
+#tagline
+{
+    font-size: 20px;
+    padding-left: 16px;
+    margin-top: 14px;
+}
+#homeouter
+{
+    height: 500px;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+#shop_outer
+{
+height: 800px;
+width: 100%;
+/* background-color: #0d602b; */
+background-color: #1b6a32;
+}
+#Procduct
+{
+    height:1000px;
+    width: 100%;
+    display: grid;
+        padding-top: 6%;
+        margin-bottom: 2%;
+    grid-template-rows:22% 22% 22% 22% ;
+    grid-template-columns: 18% 18% 18% 18%;
+    justify-content: center;
+    row-gap: 4%;
+    column-gap: 5%;
+}
+.productdetail
+{
+    background-color: #ffffff;
+    border: 2px solid #c0e3ca;
+    padding: 2%;
+    border-radius: 4%;
+}
+.imgproduct{
+    height: 50% !important;
+    width: 75% !important;
+    margin-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+#prodDescpouter{
+    height:300px;
+    width: 100%;
+    width: 96%;
+    margin: 2%;
+    border: 2px solid #c0e3ca;
+    display: flex;
+}
+#divDispimg
+{
+    height: 100%;
+    width: 30%;
+    border-right: 2px solid #c0e3ca;
+}
+#divDispCart
+{
+    height: 100%;
+    width: 70%;
+    padding: 2%;
+    text-align: justify;
+    background-color: #ffffff;
+}
+.despimg{
+    height: 100%;
+    width: 100%;
+    padding: 6%;
+}
+.btncart{
+    font-size: 18px;
+    width: 40%;
+    background-color: yelow;
+    margin-top: 2%;
+    background-color: #1b6a32;
+    color: white;
+    border: none;
+    padding: 1%;
+}
+.hidden{
+    height: 0 !important;
+    visibility: hidden;
+    overflow: hidden;
+}
+.btnIncdec
+{
+    font-size: 18px;
+    border: none;
+    width: 30px;
+    color: white;
+    background: none;
+}
+.quantIncdec
+{
+    
+    height: 26px;
+    text-align: center;
+    width: 50px;
+    background: none;
+    padding-bottom: -25px;
+    border: none;
+    /* color: white; */
+    font-size: 18px;
+}
+.btncart{
+    font-size: 18px;
+    width: 40%;
+    background-color: yelow;
+    margin-top: 2%;
+    background-color: #1b6a32;
+    /* color: white; */
+    border: none;
+    padding: 1%;
+}
+.displaynone{
+display: none;
+}
+.displayblock
+{
+    display: block;
+}
+table, td, th {
+    border: 1px solid;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+  }
+  #cartimg{
+    height:40px;
+    width:100px ;
+    padding: 5px;
+    
+  }
+  #cartid
+  {
+    height: auto;
+    width: 100%;
+    padding: 5%;
+    background-color: #c9eccf;
+    /* color: white; */
+  }
+  .anchornav{
+    padding-right: 20px;
+  }
+#middle
+{
+    height:300px;
+    width: 100%;
+    /* background-color: #c0e3ca; */
+    display: flex;
+    justify-content: center;
+}
+.middiv1
+{
+    height: 80%;
+    width: 25%;
+    padding-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #c0e3ca;
+    /* background-color: #1b6a32; */
+    margin: auto;
+    font-size: 16px;
+}
+h4{
+    margin-top: 10px;
+    font-size: 16px;
+}
+#bottom
+{
+    height: 500px;
+    width: 100%;
+    /* background-color: #0d602b; */
+    display: flex;
+    justify-content: center;
+}
+.botLeft
+{
+    height: 80%;
+    width:40%;
+    margin: auto;
+    text-align: justify;
+    /* background-color: #8b1717; */
+}
+#bottom1
+{
+ height:400px;
+ width: 100%;
+ background-color: #1b6a32;
+ display: flex;
+ margin: auto;
+justify-content: center;
+}
+.bottom1div
+{
+    height: 80%;
+    width:20%;
+     margin: auto;
+     padding-top: 10px;
+     text-align: center;
+     background-color: white;
+     color: rgb(29, 23, 23);
+    /* background-color: red; */
+}
+
+#bottomtop
+{
+    height:500px;
+ width: 100%;
+ text-align: center;
+ background-color: #1b6a32;
+ color: white;
+}
+#btnshop
+{
+    height: 40px;
+    width: 141px;
+    border: none;
+    /* margin: auto; */
+    background-color: #030303;
+}
+h3{
+    margin-top: 18px;
+}
+#contact
+{
+    height:600px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #c9eccf;
+    padding-left: 20px;
+}
