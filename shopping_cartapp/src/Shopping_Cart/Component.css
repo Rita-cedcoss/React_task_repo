@@ -1,0 +1,87 @@
+#outer
+{
+    height: auto;
+    width: 100%;
+    /* display: flex; */
+    /* background-color: aqua; */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border: 1px solid #28bba6;
+    padding: 20px;
+    border-radius: 12px;
+    /* font-size: 30px; */
+    height: 250px;
+    text-align: center;
+  }
+  #btnCart
+  {
+    height: 30px;
+    background-color: #28bba6;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 16px;
+  }
+  #carttbl
+  {
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  table, td, th {
+    border: 1px solid #009688;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  table {
+    
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  #btnremove
+  {
+    height: 30px;
+    width: 75px;
+    border: none;
+    color: white;
+    background: #009688;
+  }
+  .btninc
+  {
+    border: none;
+    background: none;
+    padding: 13px;
+    font-size: 18px;
+  }
+  #cartempty
+  {
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #009688;
+  }
+  #grandtot
+  {
+text-align: right;
+  }
+  h1{
+    text-align: center;
+    color: #009688;
+  }
