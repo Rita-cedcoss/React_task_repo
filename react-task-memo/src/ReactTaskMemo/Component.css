@@ -1,0 +1,84 @@
+#currencyouter
+{
+    height: 330px;
+    width: 400px;
+    background-color: #e3e0e0;
+    margin: auto;
+    /* color: white; */
+    padding-top: 1px;
+    text-align: center;
+}
+#selectdiv
+{
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+#btnr
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+#btnl
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.selleft
+{
+    height: 50px;
+    width: 70px;
+}
+#btnrate
+{
+    height: 30px;
+    width: 175px;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+    background-color: #171572;
+    color: white;
+}
+.displaynone
+{
+    display: none;
+}
+.displayBlock
+{
+    display: block;
+}
+#countword
+{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    padding-top:30px ;
+    background-color: #e3e0e0;
+}
+textarea{
+    height: 100px;
+    width: 305px;
+}
+.btncount
+{
+    height: 35px;
+    background-color: #171572;
+    border: none;
+    color: white;
+    margin-top: 12px;
+    /* padding-right: 1px; */
+    margin-right: 10px;
+    font-size: 20px;
+}
+#numcount
+{
+    height: 100px;
+    width: 400px ;
+    margin: auto;
+    background-color: #e3e0e0;
+}
