@@ -1,0 +1,198 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#outer
+{
+    height: 700px;
+    width:100%;
+    background-color: rgb(197, 207, 207);
+    padding-top:2% ;
+}
+#top
+{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    padding-left: 2%;
+    padding-top:1%;
+    border-radius:10px ;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#bottom
+{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+#left
+{
+    height: 85%;
+    width:50%;
+    margin: auto;
+    padding: 2%;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#right
+{
+    height:90%;
+    width: 40%;
+    padding: 2%;
+    margin: auto;
+    /* background-color: pink; */
+}
+button{
+    height: 30px;
+    width: 110px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#btnsrn
+{
+    width: 224px;
+    background-color: rgb(73, 157, 252);
+    color: white;
+    border: none;
+}
+.left-top
+{
+    height:60%;
+    width: 100%;
+    padding-left:2%;
+    /* background-color: antiquewhite; */
+}
+#btn1
+{
+    background-color: rgb(73, 252, 133);
+    color: white;
+    border: none;
+}
+#btn2
+{
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: none;
+}
+#btn3
+{
+    background-color: rgb(248, 202, 52);
+    color: white;
+    border: none;
+}
+#btn4
+{
+    background-color: rgb(151, 148, 137);
+    color:white;
+    border: none;
+}
+#right_Top
+{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.div1
+{
+    height: 30px;
+    width: 30px;
+    margin-right: 11px;
+    background-color: aqua;
+}
+#divmain
+{
+    height: 80px;
+    width: 170px;
+    padding: 20px;
+    display: flex;
+}
+#divmain1
+{
+    height: 80px;
+    width: 300px;
+    padding: 20px;
+    display: flex; 
+}
+#rtopOuter
+{
+    height: 80px;
+    width: 100%;
+    display:flex;
+}
+.hidden
+{
+    display: none;
+}
+.show
+{
+    display:block;
+}
+#div1
+{
+    background-color: rgb(122, 128, 128);
+}
+#div2
+{
+    background-color: rgb(238, 20, 4);
+}
+#div3
+{
+    background-color: rgb(107, 247, 107);
+}
+#div4
+{
+    background-color: rgb(40, 184, 241);
+}
+#div4
+{
+    background-color: rgb(235, 238, 70);
+}
+
+#right_bottom
+{
+    height: 60px;
+    width: 96%;
+    display: flex;
+    /* margin: 5%; */
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 7px;
+}
+.div2
+{
+    height: 31px;
+    width: 42px;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(189, 199, 199);
+    margin-left: 4%;
+}
+.display
+{
+    display:none;
+}
+#spara
+{
+    width: 160px;
+}
+h4{
+
+    padding-bottom: 25px;
+}
+.yellow{
+    background-color: yellow;
+    height: 31px;
+    width: 42px;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 10px;
+    /* background-color: rgb(189, 199, 199); */
+    margin-left: 4%;
+}
