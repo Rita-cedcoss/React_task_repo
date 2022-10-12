@@ -1,0 +1,74 @@
+#sign_outer
+{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: aqua; */
+}
+#top
+{
+    height: 420px;
+    width: 25%;
+    /* background-color: antiquewhite; */
+    margin: auto;
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #b7b2b2 ;
+    padding: 40px;
+}
+.inpdesign
+{
+    height: 26px;
+    border: 1px solid #b7b2b2;
+    border-radius: 5px;
+    width: 100%;
+}
+#btncreate
+{
+    width: 100%;
+    height: 33px;
+    margin-top: 20px;
+    background: #f0c14b;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid  #7e7171 ;
+    /* border-color: 1px #a88734 #9c7e31 #846a29; */
+}
+#navouter
+{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+}
+#navleft
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+}
+#right
+{
+    height: 72%;
+    width: 50%;
+    color: white;
+    /* background-color: black; */
+    padding-top: 1%;
+    text-align: right;
+}
+#right>a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    padding: 5%;
+    font-size: 20px;
+}
+#outerBlog
+{
+    height: 500px;
+    width: 100%;
+    background-color: #f0c14b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://thumbs.dreamstime.com/b/tablet-pc-mock-up-pastel-pink-desktop-background-stationery-supples-leaves-branches-top-view-beauty-blog-female-137304514.jpg");
+}
