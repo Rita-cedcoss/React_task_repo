@@ -1,3 +1,14 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+#outer
+{
+    height: auto;
+    width: 100%;
+    background-color: #131111;
+}
 #sign_outer
 {
     height: auto;
@@ -61,7 +72,8 @@
     color: white;
     text-align: right;
     padding: 5%;
-    font-size: 20px;
+    font-family: serif;
+    font-size: 16px;
 }
 #outerBlog
 {
@@ -72,3 +84,136 @@
     background-repeat: no-repeat;
     background-image: url("https://thumbs.dreamstime.com/b/tablet-pc-mock-up-pastel-pink-desktop-background-stationery-supples-leaves-branches-top-view-beauty-blog-female-137304514.jpg");
 }
+#left
+{
+    height: 60%;
+    width: 36%;
+    line-height: 2;
+    padding: 7%;
+    /* font-size: 12px; */
+    font-family: serif;
+}
+#Blogbottom
+{
+    height: auto;
+    width: 100%;
+    background-color: #e5bbbd;
+}
+#left>input{
+    margin-top: 2%;
+    height: 6%;
+    width: 68%;
+    padding: 1%;
+}
+#left>textarea{
+    height: 32%;
+    margin-top: 4%;
+    padding: 2%;
+    width: 66%;
+}
+#left>button{
+    height: 10%;
+    width: 23%;
+    border: none;
+    color: white;
+    background: black;
+    /* font-size: #000000; */
+    font-size: 16px;
+}
+#blogdetail
+{
+    /* height: 300px;
+    width:100%; */
+    display: grid;
+  grid-template-columns:22% 22% 22% 22%;
+  grid-template-rows:300px 300px 300px;
+  row-gap: 2%;
+  column-gap: 2%;
+  padding: 2%;
+  justify-content: center;
+  /* margin: auto; */
+  
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+} 
+#blogcontent
+{
+    background-color: #af747a;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 10px;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 1.4;
+  font-family: serif;
+  /* margin: auto; */
+  text-align: justify;
+}
+.img_blog
+{
+    height: 40%;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    #left>input{
+        margin-top: 2%;
+        height: 4%;
+        width: 68%;
+        font-size: 10px;
+        /* padding: 1%; */
+    }
+    #left>textarea{
+        height: 22%;
+        margin-top: 4%;
+        /* padding: 2%; */
+        font-size: 10px;
+        width: 66%;
+    }
+    #left>button{
+        height: 7%;
+        width: 50%;
+        border: none;
+        color: white;
+        background: black;
+        /* font-size: 10px; */
+        /* font-size: #000000; */
+        font-size: 10px;
+    }
+
+  }
+  @media screen and (max-width: 420px) {
+    #left>input{
+        /* margin-top: 2%; */
+        height: 4%;
+        width: 68%;
+        font-size: 6px;
+        /* padding: 1%; */
+    }
+    #left>textarea{
+        height: 22%;
+        /* margin-top: 4%; */
+        /* padding: 2%; */
+        font-size: 6px;
+        width: 66%;
+    }
+    #left>button{
+        height: 7%;
+        width: 50%;
+        border: none;
+        color: white;
+        background: black;
+        /* font-size: 10px; */
+        /* font-size: #000000; */
+        font-size: 6px;
+    }
+    #left
+{
+    height: 60%;
+    width: 36%;
+    line-height: 2;
+    padding: 7%;
+    font-size: 12px;
+    font-family: serif;
+}
+
+  }

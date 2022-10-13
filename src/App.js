@@ -57,7 +57,7 @@ function App() {
   }
   return (
     <>
-    <Navbar></Navbar>
+    
     <Routes>
       <Route path='/' element={<Signin Signin={SignIn}/>}></Route>
       <Route path='/login' element={<Login login={login} />}/>
