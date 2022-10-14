@@ -7,8 +7,8 @@ import Project2 from './Styles_project/Project2';
 function App() {
   return (
     <>
-     <Projec1></Projec1>  
-     
+     {/* <Projec1></Projec1>   */}
+     <Project2></Project2>
     </>
   );
 }
