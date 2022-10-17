@@ -19,7 +19,7 @@ const Navbar = () => {
         <div id="navmiddle">
           <Link to="/"><img alt="" src="http://www.way2door.com/images/way2door-min.png"></img></Link>
           <p>Today's order will be delivered tomorrow. सबसे सस्ता और सबसे अच्छा.</p>
-          <p id="icon"><i class="fa fa-opencart" style={{fontSize:"30px",color:"#6a8a0a"}}></i></p>
+          <Link to="/cart"><p id="icon"><i class="fa fa-opencart" style={{fontSize:"30px",color:"#6a8a0a"}}></i></p></Link>
         </div>
         <div id="navbottom">
             <p>Fruits and Vegetable Stores</p>

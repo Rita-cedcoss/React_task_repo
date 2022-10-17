@@ -180,3 +180,103 @@ background-color:white;
     width: 100%;
     background-color: yellow;
 }
+.gridcontainer {
+    /* margin-top: 20px;
+    padding-top: 40px; */
+    display: grid;
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-content: center;
+    /* margin: auto; */
+    grid-template-rows:250px 250px 250px 250px ;
+    grid-template-columns: 23% 23% 23% 23%;
+    /* background-color: #2196F3; */
+    padding: 8px;
+  }
+  .gridbottom {
+            background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    /* text-align: center; */
+  }
+  #gridin1
+  {
+    height: 3%;
+    width: 93%;
+    margin-left: 2%;
+    margin-right: 5%;
+    justify-content:space-between;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 7px;
+    display: flex;
+  }
+  #gridin
+  {
+    height: 3%;
+    width: 100%;
+    justify-content: center;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 20px;
+    display: flex;
+  }
+  .inp
+  {
+    background: #f1a029;
+    height: 28px;
+    margin-top: 3px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    width: 20px;
+  }
+  .btnadd
+  {
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    width: 110px;
+    color: white;
+    font-size: 14px;
+    background: #f1a029;
+  }
+  #spanid{
+    height: 30px;
+width: 25px;
+text-align: center;
+  }
+  #homeleftdiv
+  {
+    height: 40px;
+    width: 90%;
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 2%;
+    font-size: 16px;
+    border-top:1px solid #cacaca;
+ 
+  }
+  table, td, th {
+    border: 1px solid;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+  }
+  #cartimg{
+    height:40px;
+    width:100px ;
+    padding: 5px; 
+  }
+  #cartid
+  {
+    height: auto;
+    width: 100%;
+    padding: 5%;
+  }
