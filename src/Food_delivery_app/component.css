@@ -1,0 +1,93 @@
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root
+{
+    background-color: white !important;
+    box-shadow: none !important;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    display: flex;
+    color: black !important;
+    align-items: center !important;
+}
+.css-ahj2mt-MuiTypography-root 
+{
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+#product
+{
+    height: 650px;
+    width: 100%;
+    margin-top: 6%;
+    padding-top: 2%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    padding: 10px;
+    justify-content: center;
+  }
+  .grid-item {
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 13px;
+    margin: 2%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+  }
+  .imggrid{
+    border-radius: 0px 13px 13px 0px;
+  }
+  .gridleft
+  {
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 50%;
+  }
+  .css-1rwt2y5-MuiButtonBase-root-MuiButton-root 
+  {
+    border: 1px solid rgb(210 196 25 / 50%) !important;
+    color: #cddc39 !important;
+  }
+  #vegfont{
+    font-size: 14px;
+  }
+  .imgveg
+  {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+  }
+  .prod_price
+  {
+    margin-top: 5px !important;
+  }
+  .gridright
+  {
+    width: 50%;
+  }
+  #footer
+  {
+    height: 60px;
+    width: 100%; 
+     position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color: white;
+  }
+  .btnfoot
+  {
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 70px;
+  }
+  .btnfoot1
+  {
+    height: 40px !important;
+    margin-top: 12px !important;
+    margin-left: 55px !important;
+    border:1px solid rgb(226, 13, 9) !important;
+  }
