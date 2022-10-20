@@ -1,0 +1,74 @@
+#currencyouter
+{
+    height: 350px;
+    width: 400px;
+    background-color:black;
+    color: white;
+    margin: auto;
+    /* color: white; */
+    padding-top: 1px;
+    text-align: center;
+}
+#selectdiv
+{
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+#btnr
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+#btnl
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.selleft
+{
+    height: 50px;
+    width: 70px;
+}
+#btnrate
+{
+    height: 30px;
+    width: 175px;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+    background-color: #171572;
+    color: white;
+}
+.displaynone
+{
+    display: none;
+}
+.displayBlock
+{
+    display: block;
+}
+#toggle{
+    height: 38px;
+    width: 126px;
+    margin-left: 10px;
+    color: white;
+    background: black;
+}
+.dark{
+    height: 200px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.light{
+    height: 200px;
+    width: 100%;
+    color:black;
+    background-color:white;
+}
