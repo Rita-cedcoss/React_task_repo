@@ -16,6 +16,7 @@ const Task1 = () => {
     return (
     <div id="Outer">
         <h1>React API Task1</h1>
+        <p>Q1.Go to https://jsonplaceholder.typicode.com/users and fetch and display the user data on page.</p>
         <table>
             <tr><th>Id</th><th>Name</th><th>Phone Number</th><th>User Name</th></tr>
             {

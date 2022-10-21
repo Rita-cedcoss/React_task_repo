@@ -13,3 +13,9 @@ table{
 table,th,tr,td{
     border: 1px solid;
 }
+#gitcontainer
+{
+    height: auto;
+    width: 96%;
+    padding: 2%; 
+}

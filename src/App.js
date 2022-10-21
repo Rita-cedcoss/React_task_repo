@@ -10,6 +10,7 @@ function App() {
   return (
     <>
    <Task1></Task1>
+   <hr></hr>
    <Task2></Task2>
     </>
   );
