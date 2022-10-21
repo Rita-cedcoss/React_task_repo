@@ -1,0 +1,86 @@
+#outer
+{
+    height: auto;
+    width: 100%;
+    /* display: flex; */
+    /* background-color: aqua; */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    height: 250px;
+    text-align: center;
+  }
+  #btnCart
+  {
+    height: 30px;
+    background-color: #830740;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 16px;
+  }
+  #carttbl
+  {
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  table, td, th {
+    border: 1px solid #830740;
+    color: #830740;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  table {
+    
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  #btnremove
+  {
+    height: 30px;
+    width: 75px;
+    border: none;
+    color: white;
+    background-color: #830740;
+  }
+  .btninc
+  {
+    border: none;
+    background: none;
+    padding: 13px;
+    font-size: 18px;
+  }
+  #cartempty
+  {
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #830740;
+  }
+  #grandtot
+  {
+text-align: right;
+  }
+  h1{
+    text-align: center;
+    color:  #830740;;
+  }
