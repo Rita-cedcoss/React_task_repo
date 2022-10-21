@@ -1,0 +1,15 @@
+#Outer{
+    height: auto;
+    width: 96%;
+    padding: 2%;
+    /* background-color: aqua; */
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+table,th,tr,td{
+    border: 1px solid;
+}
