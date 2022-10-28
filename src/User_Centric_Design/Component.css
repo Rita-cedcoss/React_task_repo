@@ -1,0 +1,97 @@
+#outerTask1
+{
+    height: 100px;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#top
+{
+    height: 400px;
+    width: 100%;
+    /* background-color: #8500ff; */
+    background: #4c4fba url('https://university.adespresso.com/wp-content/themes/ae-brew-child/library/images/home-cover.png') 0 0 no-repeat;
+    background-size: cover;
+}
+#Navbar
+{
+    height: 100px;
+    width:100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+#left_nav
+{
+    height: 87%;
+    width: 44%;
+    padding-left: 6%;
+    padding-top: 1%;
+    /* background-color: #8500ff; */
+
+}
+#right_nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+button
+{
+    height: 34px;
+    width: 100px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+#subGreen
+{
+    background-color: green;
+    color: white;
+}
+#btn_Login{
+    background: #839ccf;
+    color: white;
+    margin-right: 110px;
+}
+#bottom
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    /* background-color: yellow; */
+}
+#bottom_left
+{
+    height: 82%;
+    width: 52%;
+    padding-top: 4%;
+    padding-left: 8%;
+    color: white;
+}
+#bottom_right
+{
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    display: flex;
+}
+#course
+{
+    height: 300px;
+    width: 100%;
+    background-image: url("/public/figmgaimg2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#foot
+{
+ 
+    height: 60px;
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    padding: 5%;
+    background: #4c4fba url(https://university.adespresso.com/wp-content/themes/ae-brew-child/library/images/home-cover.png) 0 0 no-repeat;
+    background-size: cover;
+}
