@@ -95,3 +95,127 @@ button
     background: #4c4fba url(https://university.adespresso.com/wp-content/themes/ae-brew-child/library/images/home-cover.png) 0 0 no-repeat;
     background-size: cover;
 }
+#task2_outer
+{
+    height: auto;
+    width: 100%;
+    background-color: #2b3527;
+}
+#task_Top
+{
+    height: 155px;
+    width: 100%;
+    padding-top: 35px;
+    display: block;
+    color: white;
+    /* background-color: #4c4fba; */
+    text-align: center;
+}
+#task2_outer1{
+    height: 600px;
+    width: 100%;
+    background-color: #5cac19;
+}
+#middle_page
+{
+  height: 410px;  
+  width: 100%;
+  display: flex;
+  /* background-color: antiquewhite; */
+}
+#mid_left
+{
+    height: 87%;
+    width: 30%;
+    padding-left: 10%;
+    color: white;
+    text-align: justify;
+}
+#mid_right
+{
+    height: 94%;
+    width: 60%;
+    padding-top: 2%;
+   
+    /* background-color: rgb(20, 20, 20); */
+}
+#login_mid
+{
+    height: 80%;
+    width: 70%;
+    background-color: #1a680c59;
+    padding-top: 1%;
+    margin: auto;
+    text-align: center;
+}
+input{
+
+    height: 30px;
+    width: 40%;
+    margin: 2%;
+}
+#btn_login
+{
+    height: 35px;
+    width: 151px;
+    border-radius: none !important;
+    background-color: #ff3681;
+    border-radius: 0;
+    color: white;
+    margin-right:58% ;
+}
+#login_mid>p{
+
+    margin-right: 20%;
+    color: white;
+}
+.imgleft
+{
+    margin-top: 10%;
+}
+#bottom
+{
+    height: 1200px;
+    width: 100%;
+    background-color: #4c4fba;
+}
+@media screen and (max-width: 950px) {
+   
+    #mid_right
+{
+    height: 94%;
+    width: 60%;
+    padding-top: 2%;
+}
+#login_mid
+{
+    height: 80%;
+    width: 70%;
+    background-color: #1a680c59;
+    padding-top: 1%;
+    margin: auto;
+    text-align: center;
+}
+input{
+
+    height: 30px;
+    width: 40%;
+    margin: 2%;
+}
+#btn_login
+{
+    height: 35px;
+    width: 120px;
+    border-radius: none !important;
+    background-color: #ff3681;
+    border-radius: 0;
+    color: white;
+    margin-right:38% ;
+}
+#login_mid>p{
+
+    margin-right: 8%;
+    font-size: 16px;
+    color: white;
+}
+  }
