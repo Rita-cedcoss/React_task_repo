@@ -1,0 +1,67 @@
+#outer
+{
+    height:auto;
+    width: 96%;
+    background-color: aqua;
+    padding: 2%;
+}
+#sign_in
+{
+    height:700px;
+    width:40%;
+    background-color: white;
+    margin: auto;
+
+}
+#top
+{
+    height: 200px;
+    width:100%;
+    text-align: center;
+    background-color: aquamarine;
+}
+input
+{
+    height: 50px;
+    width: 70%;
+    border-top: none;
+    border: 1px 2px 3px 0px solid;
+    /* background: red; */
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(79, 173, 250);
+    
+}
+#sign_up_mid
+{
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+::placeholder {
+    color: rgb(49, 35, 247);
+    font-size: 18px;
+  }
+  button{
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background: blue;
+    color: white;
+    margin-top: 26px;
+    width: 113px;
+    margin-bottom: 12px;
+    font-size: 17px;
+  }
+  .checkbox{
+    height: 20px;
+    width: 20px;
+    margin-top: 36px;
+  }
+  .checkbox_text
+{
+    color: rgb(57, 57, 245);
+}
+p{
+    color:rgb(57, 57, 245);
+}
