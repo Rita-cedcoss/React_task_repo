@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{
+    height: auto;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#gridContainer{
+    padding: 60px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+#grid{    
+    height: 150px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #d9bfbf;
+
+}
+#Title{
+    height: 5%;
+    width: 96%;
+    background-color: #f1eeea;
+    border-radius: 15px 15px 0px 0px;
+    padding: 2%;
+    border-bottom: 1px solid #bba7a7;
+}
+#Content{
+    height: 46%;
+    width: 96%;
+    border-radius: 0px 0px 15px 15px;
+    padding: 2%;
+}
