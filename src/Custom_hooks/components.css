@@ -18,20 +18,55 @@
     margin: 20px;
     background-color: white;
     border-radius: 15px;
-    border: 1px solid #d9bfbf;
+    border: 1px solid #201919;
+    position: relative;
 
 }
 #Title{
-    height: 5%;
+    height: 14%;
     width: 96%;
     background-color: #f1eeea;
     border-radius: 15px 15px 0px 0px;
     padding: 2%;
-    border-bottom: 1px solid #bba7a7;
+    font-size: 14px;
+    overflow: hidden;
+    border-bottom: 1px solid #a39d9d;
+    color: white;
+    background-color: #0e0e0e;
 }
 #Content{
-    height: 46%;
+    height: 55%;
+    overflow: hidden;
     width: 96%;
+    font-size: 14px;
     border-radius: 0px 0px 15px 15px;
     padding: 2%;
+}
+#load{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.visibility{
+    visibility:hidden;
+    text-align: center;
+}
+h2{
+    margin-left: 50px;
+} 
+h3{
+    position: absolute;
+    top: 27px;
+    color: #181717;
+    color: white;
+    padding: 0px 8px 0px 8px;
+    /* right: 3px; */
+    /* /* margin-right: 14px;  */
+
+}
+h4{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    color: red;
 }
